@@ -1,0 +1,211 @@
+
+.mianDiv{
+    width: 55%;
+    margin: 3px auto;
+    border: 0px solid black;
+    box-shadow: 0 1px 0px #ccc;
+    text-align: left;
+    float: center;
+    position: relative;
+    margin-left: 500px;
+  
+  
+}
+img{
+width: 100%;
+margin-left: 0px;
+text-align: left;
+border-radius: 50%;
+}
+
+.Star{
+  height: 14px;
+  width: 15px ;
+}
+
+.col25 {
+  float: left;
+  width: 25%;
+  color: grey;
+
+}
+
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.SideDiv{
+  float: left;
+  width: 20%;
+  margin: 4px auto;
+  border: 0px solid rgb(212, 210, 210);
+  text-align: left;
+  position: absolute;
+  left: 0px;
+   margin-left: 120px;
+   color: #575555;
+
+}
+
+h3{
+  text-align: left;
+  
+}
+
+p{
+  text-align: left;
+}
+
+h2{
+  color: #4a4aebef;
+
+}
+
+.button{
+
+  width: 250px;
+  font-size: 20px;
+  background-color: white;
+
+}
+
+.heart { 
+  position: relative; 
+  width: 50px; 
+  height: 40px; 
+} 
+
+.heart:before, .heart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 24px; 
+  top: 0; 
+  width: 25px; 
+  height: 38px; 
+  
+  background:grey ; 
+  border-radius: 50px 50px 0 0; 
+  -webkit-transform: rotate(-45deg); 
+  -moz-transform: rotate(-45deg); 
+  -ms-transform: rotate(-45deg); 
+  -o-transform: rotate(-45deg); 
+  transform: rotate(-45deg); 
+ -webkit-transform-origin: 0 100%; 
+ -moz-transform-origin: 0 100%; 
+ -ms-transform-origin: 0 100%; 
+ -o-transform-origin: 0 100%; 
+ transform-origin: 0 100%; 
+} 
+
+.heart:after { 
+  left: 0; 
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -ms-transform: rotate(45deg); 
+  -o-transform: rotate(45deg); 
+ transform: rotate(45deg); 
+ -webkit-transform-origin: 100% 100%; 
+ -moz-transform-origin: 100% 100%; 
+ -ms-transform-origin: 100% 100%; 
+ -o-transform-origin: 100% 100%; 
+ transform-origin :100% 100%; 
+
+
+} 
+
+
+
+.heart2 { 
+  position: relative; 
+  width: 50px; 
+  height: 40px; 
+} 
+
+.heart2:before, .heart2:after { 
+  position: absolute; 
+  content: ""; 
+  left: 24px; 
+  top: 0; 
+  width: 25px; 
+  height: 38px; 
+  
+  background:red ; 
+  border-radius: 50px 50px 0 0; 
+  -webkit-transform: rotate(-45deg); 
+  -moz-transform: rotate(-45deg); 
+  -ms-transform: rotate(-45deg); 
+  -o-transform: rotate(-45deg); 
+  transform: rotate(-45deg); 
+ -webkit-transform-origin: 0 100%; 
+ -moz-transform-origin: 0 100%; 
+ -ms-transform-origin: 0 100%; 
+ -o-transform-origin: 0 100%; 
+ transform-origin: 0 100%; 
+} 
+
+.heart2:after { 
+  left: 0; 
+  -webkit-transform: rotate(45deg); 
+  -moz-transform: rotate(45deg); 
+  -ms-transform: rotate(45deg); 
+  -o-transform: rotate(45deg); 
+ transform: rotate(45deg); 
+ -webkit-transform-origin: 100% 100%; 
+ -moz-transform-origin: 100% 100%; 
+ -ms-transform-origin: 100% 100%; 
+ -o-transform-origin: 100% 100%; 
+ transform-origin :100% 100%; 
+
+
+} 
+
+button{
+
+  background-color:white;
+  border: 0px ;
+
+}
+
+
+.SearchBox{
+
+
+  margin-left: 35%;
+  width: 20%;
+  margin-top: 10px;
+
+
+
+}
+
+input {         
+  border-top-left-radius: 5px;         
+  border-top-right-radius: 5px;         
+  border-bottom-left-radius: 5px;         
+  border-bottom-right-radius: 5px;         
+  background: #FFFFFF no-repeat 2px 2px;         
+  padding:5px 1px 6px 5px;         
+  border:2px solid #155af0c9;      
+  margin-bottom: 6px;   
+  margin-left: 3px;
+  width: 300px;
+}         
+input:focus {         
+  width: 400px;         
+  transition: all 0.30s ease-in-out;         
+  border: 6px solid #6085eb;         
+}
+
+a{
+
+  text-decoration: none;
+
+}
+a:hover {
+
+  text-decoration: underline;
+  color: blue;
+}
