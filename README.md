@@ -1,3 +1,8 @@
+#I used React , Redux, Routers, and React hooks to develop this project.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
